@@ -67,9 +67,10 @@ body {
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -78,13 +79,26 @@ body {
     margin-right: 5px;
 }
 
-h1 {
+.jumbotron .container h1 {
     letter-spacing: .5em;
     font-size: 5.2vw;
     font-weight: 300;
-    color: #fff;
+    color: white;
     padding: .3em;
     display: table;
-    margin: 25% auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: 6%;
     /*background-color: rgba(0,0,0,.5);*/
+}
+
+.jumbotron .container h2 {
+    letter-spacing: .5em;
+    font-size: 2.2em;
+    font-weight: 300;
+    color: white;
+    padding: .3em;
+    display: table;
+    margin-top: -100px;
+    margin-left: 19%;
 }
