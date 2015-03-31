@@ -29,8 +29,8 @@ body {
 }
 
 .jumbotron.container {
-  position: relative;
-  top:100px;
+    position: relative;
+    top: 100px;
 }
 
 .menu ul {
@@ -78,13 +78,13 @@ body {
     margin-right: 5px;
 }
 
-h1{
-  letter-spacing: .5em;
-  font-size: 3.2em;
-  font-weight: 300;
-  color: #fff;
-  padding: .3em;
-  display: table;
-  margin: 25% auto;
-  /*background-color: rgba(0,0,0,.5);*/
+h1 {
+    letter-spacing: .5em;
+    font-size: 3.2em;
+    font-weight: 300;
+    color: #fff;
+    padding: .3em;
+    display: table;
+    margin: 25% auto;
+    /*background-color: rgba(0,0,0,.5);*/
 }
