@@ -8,6 +8,7 @@ body {
     position: relative;
 }
 
+
 .arrow {
   position: fixed;
   bottom: 34;
@@ -67,7 +68,6 @@ body {
     background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
     left: -285px;
     /* start off behind the scenes */
-    
     height: 100%;
     position: fixed;
     width: 285px;
@@ -120,6 +120,7 @@ body {
 .icon-menu {
     color: #fff;
     cursor: pointer;
+    top: 1px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin-left: 15px;

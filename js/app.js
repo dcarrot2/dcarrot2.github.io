@@ -2,6 +2,16 @@ var main = function() {
 
     /* Push the body and the nav over by 285px over */
     var open = false;
+    // var name = ".fa fa-bars";
+    // console.log($(name).css("top"));
+    // var menuYloc = parseInt($(name).css("top").substr(0,$(name).css("top").indexOf("px")));
+
+    // $(window).scroll(function(){
+    //     var offset = menuYloc+$(document).scrollTop()+"px";
+    //     console.log(offset);
+    //     $(name).animate({top:offset},{duration:500,queue:false});
+    // });
+
     $('html').click(function() {
         console.log(open);
 
@@ -15,7 +25,7 @@ var main = function() {
             open = false;
 
         }
-    })
+    });
 
     console.log(open);
     $('.icon-menu').click(function(event) {
@@ -34,6 +44,7 @@ var main = function() {
         }, 200);
         open = false;
     });
+
 
     
 
