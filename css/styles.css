@@ -204,9 +204,9 @@ body {
   width: 180px;
   height: 180px;
 
-  -moz-border-radius: 0%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
+  -moz-border-radius: 36%;
+  -webkit-border-radius: 36%;
+  border-radius: 36%;
 }
 
 #works .row #uber img{
