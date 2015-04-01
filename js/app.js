@@ -1,12 +1,30 @@
 var main = function() {
+
     /* Push the body and the nav over by 285px over */
     var open = false;
-    $('.icon-menu').click(function() {
+    $('html').click(function() {
+        console.log(open);
+
+        if (open) {
+            console.log("here2");
+
+            console.log("here3");
+            $('.menu').animate({
+                left: "-285px"
+            }, 200);
+            open = false;
+
+        }
+    })
+
+    console.log(open);
+    $('.icon-menu').click(function(event) {
+        event.stopPropagation();
         $('.menu').animate({
             left: "0px"
         }, 200);
-        open = false;
-
+        open = true;
+        console.log(open)
     });
 
     /* Then push them back */
@@ -14,19 +32,10 @@ var main = function() {
         $('.menu').animate({
             left: "-285px"
         }, 200);
-        open = true;
+        open = false;
     });
 
-    $('body').click(function() {
-        if (open) {
-            $('.icon-close').click(function() {
-                $('.menu').animate({
-                    left: "-285px"
-                }, 200);
-                open = false;
-            });
-        }
-    })
+    
 
     /* Smooth scroll */
     $('a[href*=#]:not([href=#])').click(function() {
