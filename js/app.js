@@ -28,7 +28,7 @@ var main = function() {
     });
 
     console.log(open);
-    $('.icon-menu').click(function(event) {
+    $('.menuIcon').click(function(event) {
         event.stopPropagation();
         $('.menu').animate({
             left: "0px"
